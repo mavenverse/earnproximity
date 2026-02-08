@@ -1,2 +1,223 @@
 # earnproximity
 Earn Proximity, Not Followers
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mavenverse — Earn Proximity, Not Followers</title>
+    <meta name="description" content="Stop renting followers. Start earning proximity. mavenverse connects brands to real-world communities." />
+
+    <!-- Tailwind CDN (simple + fast for non-coders) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      /* Small extras so it feels “designed” */
+      .glass { background: rgba(255,255,255,0.06); backdrop-filter: blur(10px); }
+      .ring-neon { box-shadow: 0 0 0 1px rgba(163,230,53,0.35), 0 0 40px rgba(163,230,53,0.15); }
+    </style>
+  </head>
+
+  <body class="bg-zinc-950 text-zinc-100">
+    <header class="max-w-6xl mx-auto px-6 pt-8">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <!-- Replace with your logo if you want: /assets/logo.png -->
+          <div class="w-9 h-9 rounded-full bg-lime-400 text-zinc-950 flex items-center justify-center font-black">m</div>
+          <div class="font-semibold tracking-tight lowercase">mavenverse</div>
+        </div>
+
+        <a href="#signup" class="text-sm px-4 py-2 rounded-full bg-lime-400 text-zinc-950 font-semibold hover:opacity-90">
+          Join the pilot
+        </a>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 pb-20">
+      <!-- HERO -->
+      <section class="pt-14 md:pt-20">
+        <div class="grid md:grid-cols-2 gap-10 items-start">
+          <div>
+            <div class="inline-flex items-center gap-2 text-xs px-3 py-1 rounded-full glass ring-neon">
+              <span class="w-2 h-2 rounded-full bg-lime-400"></span>
+              <span class="text-zinc-200">The antidote to the undead internet</span>
+            </div>
+
+            <h1 class="mt-6 text-4xl md:text-6xl font-extrabold leading-tight">
+              Stop renting followers.<br />
+              <span class="text-lime-400">Start earning proximity.</span>
+            </h1>
+
+            <p class="mt-5 text-lg text-zinc-300 max-w-xl">
+              The algorithm is noisy, influencer trust is collapsing, and attention is full of bots.
+              Real influence has moved to private, offline spaces: <span class="text-zinc-100 font-semibold">real-world communities</span>.
+            </p>
+
+            <div class="mt-8 flex flex-col sm:flex-row gap-3">
+              <a href="#signup" class="px-6 py-3 rounded-xl bg-lime-400 text-zinc-950 font-semibold hover:opacity-90">
+                Join the pilot program
+              </a>
+              <a href="#how" class="px-6 py-3 rounded-xl border border-zinc-700 text-zinc-100 hover:bg-zinc-900">
+                How it works
+              </a>
+            </div>
+
+            <div class="mt-10 grid grid-cols-3 gap-4 text-sm">
+              <div class="glass rounded-xl p-4 border border-zinc-800">
+                <div class="text-lime-400 font-bold">Trust</div>
+                <div class="text-zinc-300 mt-1">Peers beat platforms</div>
+              </div>
+              <div class="glass rounded-xl p-4 border border-zinc-800">
+                <div class="text-lime-400 font-bold">Efficiency</div>
+                <div class="text-zinc-300 mt-1">Spend without spray</div>
+              </div>
+              <div class="glass rounded-xl p-4 border border-zinc-800">
+                <div class="text-lime-400 font-bold">Compounding</div>
+                <div class="text-zinc-300 mt-1">Depth > width</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT CARD -->
+          <div class="glass border border-zinc-800 rounded-2xl p-6 ring-neon">
+            <h2 class="text-xl font-bold">What’s broken</h2>
+            <ul class="mt-4 space-y-3 text-zinc-300">
+              <li class="flex gap-3"><span class="text-lime-400 font-bold">•</span> Ads buy impressions. Not belief.</li>
+              <li class="flex gap-3"><span class="text-lime-400 font-bold">•</span> Influencers rent you eyeballs for a moment.</li>
+              <li class="flex gap-3"><span class="text-lime-400 font-bold">•</span> Communities recruit evangelists for a lifetime.</li>
+            </ul>
+
+            <div class="mt-6 border-t border-zinc-800 pt-6">
+              <h3 class="font-semibold text-zinc-100">What mavenverse does</h3>
+              <p class="mt-2 text-zinc-300">
+                We’re the infrastructure that connects brand budgets to vetted communities—so you can activate trust at scale
+                without turning every partnership into a bespoke ops nightmare.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section id="how" class="mt-16 md:mt-24">
+        <h2 class="text-2xl md:text-3xl font-extrabold">How it works</h2>
+        <p class="mt-2 text-zinc-300 max-w-2xl">
+          Community sponsorship, without the chaos: curated supply, clean activations, and measurable outcomes.
+        </p>
+
+        <div class="mt-8 grid md:grid-cols-3 gap-6">
+          <div class="glass border border-zinc-800 rounded-2xl p-6">
+            <div class="text-lime-400 font-bold">1) Match</div>
+            <div class="mt-2 font-semibold">Vetted communities</div>
+            <p class="mt-2 text-zinc-300">We package communities by identity + lifestyle, so you reach the right rooms.</p>
+          </div>
+
+          <div class="glass border border-zinc-800 rounded-2xl p-6">
+            <div class="text-lime-400 font-bold">2) Activate</div>
+            <div class="mt-2 font-semibold">Sponsorship + product</div>
+            <p class="mt-2 text-zinc-300">Sampling, events, content, feedback—built to feel natural, not “influencer-y.”</p>
+          </div>
+
+          <div class="glass border border-zinc-800 rounded-2xl p-6">
+            <div class="text-lime-400 font-bold">3) Measure</div>
+            <div class="mt-2 font-semibold">Signals you can use</div>
+            <p class="mt-2 text-zinc-300">Consumption, intent, qualitative insight, and repeatable learning loops.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SIGNUP -->
+      <section id="signup" class="mt-16 md:mt-24">
+        <div class="grid md:grid-cols-2 gap-10 items-start">
+          <div>
+            <h2 class="text-2xl md:text-3xl font-extrabold">Join the pilot</h2>
+            <p class="mt-2 text-zinc-300 max-w-xl">
+              We’re onboarding a small set of partners. If this framing hits, tell us what you’re trying to solve.
+            </p>
+
+            <div class="mt-6 glass border border-zinc-800 rounded-2xl p-6">
+              <div class="text-sm text-zinc-300">
+                <div class="font-semibold text-zinc-100">This page tests:</div>
+                <div class="mt-1">Narrative = “Earn proximity, not followers.”</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass border border-zinc-800 rounded-2xl p-6">
+            <!-- FORM: replace action with your Formspree endpoint -->
+            <form id="leadForm" method="POST" action="https://formspree.io/f/REPLACE_ME" class="space-y-4">
+              <!-- Hidden fields for tracking -->
+              <input type="hidden" name="page_variant" id="page_variant" value="proximity" />
+              <input type="hidden" name="page_url" id="page_url" value="" />
+
+              <div>
+                <label class="block text-sm font-medium">Email</label>
+                <input name="email" type="email" required
+                  class="mt-1 w-full rounded-xl bg-zinc-900 border border-zinc-700 px-4 py-3 outline-none focus:border-lime-400"
+                  placeholder="you@company.com" />
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium">I’m a…</label>
+                <select name="role" required
+                  class="mt-1 w-full rounded-xl bg-zinc-900 border border-zinc-700 px-4 py-3 outline-none focus:border-lime-400">
+                  <option value="" disabled selected>Select one</option>
+                  <option>Brand marketer</option>
+                  <option>Brand founder</option>
+                  <option>Community organizer</option>
+                  <option>Agency / consultant</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium">What made this resonate?</label>
+                <textarea name="resonated_because" rows="4" required
+                  class="mt-1 w-full rounded-xl bg-zinc-900 border border-zinc-700 px-4 py-3 outline-none focus:border-lime-400"
+                  placeholder="One sentence is enough. I’m looking for your words."></textarea>
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium">What are you trying to do first?</label>
+                <select name="first_use_case"
+                  class="mt-1 w-full rounded-xl bg-zinc-900 border border-zinc-700 px-4 py-3 outline-none focus:border-lime-400">
+                  <option value="" selected>Optional</option>
+                  <option>Sponsor communities (brand presence)</option>
+                  <option>Sampling / product drop</option>
+                  <option>Insights / research</option>
+                  <option>Events</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+
+              <button type="submit"
+                class="w-full px-6 py-3 rounded-xl bg-lime-400 text-zinc-950 font-semibold hover:opacity-90">
+                Request access
+              </button>
+
+              <p class="text-xs text-zinc-400">
+                No spam. If we’re not a fit, we’ll say so.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="mt-20 pt-10 border-t border-zinc-900 text-sm text-zinc-500">
+        <div class="flex items-center justify-between">
+          <div class="lowercase">mavenverse</div>
+          <div>© <span id="year"></span></div>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      // Auto-capture URL + allow variant override via ?v=something
+      const params = new URLSearchParams(window.location.search);
+      const v = params.get("v") || "proximity";
+      document.getElementById("page_variant").value = v;
+      document.getElementById("page_url").value = window.location.href;
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
