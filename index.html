@@ -126,49 +126,57 @@ Earn Proximity, Not Followers
         </div>
       </section>
 
-      <!-- SIGNUP -->
-      <section id="signup" class="mt-16 md:mt-24">
-        <div class="grid md:grid-cols-2 gap-10 items-start">
-          <div>
-            <h2 class="text-2xl md:text-3xl font-extrabold">Join the pilot</h2>
-            <p class="mt-2 text-zinc-300 max-w-xl">
-              We’re onboarding a small set of partners. If this framing hits, tell us what you’re trying to solve.
-            </p>
+    <!-- SIGNUP -->
+<section id="signup" class="mt-16 md:mt-24">
+  <div class="grid md:grid-cols-2 gap-10 items-start">
+    <div>
+      <h2 class="text-2xl md:text-3xl font-extrabold">
+        Join the pilot
+      </h2>
 
-            <div class="mt-6 glass border border-zinc-800 rounded-2xl p-6">
-              <div class="text-sm text-zinc-300">
-                <div class="font-semibold text-zinc-100">This page tests:</div>
-                <div class="mt-1">Narrative = “Earn proximity, not followers.”</div>
-              </div>
-            </div>
-          </div>
+      <p class="mt-2 text-zinc-300 max-w-xl">
+        We’re onboarding a small set of partners. If this framing hits, tell us what you’re trying to solve.
+      </p>
 
-          <div class="glass border border-zinc-800 rounded-2xl p-6">
-          <div data-tf-live="01KH293PC6AMC82E67WR78CCYW"></div><script src="//embed.typeform.com/next/embed.js"></script>
+      <div class="mt-6 text-sm text-zinc-400">
+        <div class="font-semibold text-zinc-200">This page tests:</div>
+        <div>Narrative = “Earn proximity, not followers.”</div>
+      </div>
 
-              <p class="text-xs text-zinc-400">
-                No spam. If we’re not a fit, we’ll say so.
-              </p>
-            </form>
-          </div>
-        </div>
-      </section>
+      <p class="mt-6 text-xs text-zinc-500">
+        No spam. If it’s not a fit, we’ll say so.
+      </p>
+    </div>
 
-      <footer class="mt-20 pt-10 border-t border-zinc-900 text-sm text-zinc-500">
-        <div class="flex items-center justify-between">
-          <div class="lowercase">mavenverse</div>
-          <div>© <span id="year"></span></div>
-        </div>
-      </footer>
-    </main>
+    <!-- TYPEFORM (no card, no forced height) -->
+    <div>
+      <div
+        data-tf-live="01KH29QFJVD3QG097VSK0HPSPS"
+        data-tf-hidden="variant=proximity"
+        data-tf-hide-headers
+        data-tf-hide-footer
+        style="width:100%; min-height:520px;"
+      ></div>
+    </div>
+  </div>
+</section>
 
-    <script>
-      // Auto-capture URL + allow variant override via ?v=something
-      const params = new URLSearchParams(window.location.search);
-      const v = params.get("v") || "proximity";
-      document.getElementById("page_variant").value = v;
-      document.getElementById("page_url").value = window.location.href;
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-  </body>
+<footer class="mt-20 pt-10 border-t border-zinc-900 text-sm text-zinc-500">
+  <div class="flex items-center justify-between">
+    <div class="lowercase">mavenverse</div>
+    <div>© <span id="year"></span></div>
+  </div>
+</footer>
+
+</main>
+
+<!-- Typeform embed loader (required) -->
+<script src="https://embed.typeform.com/next/embed.js"></script>
+
+<script>
+  const yearEl = document.getElementById("year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+</script>
+
+</body>
 </html>
